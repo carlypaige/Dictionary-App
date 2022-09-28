@@ -1,15 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
-
-function App() {
+import Dictionary from "./Dictionary";
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>This is working yay</h1>
-      </header>
+      <div className="container">
+        <header className="App-header">Dictionary</header>
+        <Dictionary />
+      </div>
     </div>
   );
 }
-
-export default App;
