@@ -6,6 +6,13 @@ export default function App() {
       <div className="container">
         <h1 className="App-header">Dictionary</h1>
         <Dictionary />
+        <a
+          className="footer"
+          href="https://github.com/carlypaige/dictionary-app"
+          rel="noopener noreferrer"
+        >
+          Open-sourced code by Carly Paige
+        </a>
       </div>
     </div>
   );
