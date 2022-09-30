@@ -27,13 +27,19 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
+          <p>What word would you like to search?</p>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
-              placeholder="Enter a word"
+              defaultValue={props.defaultKeyword}
+              className="search-bar"
               onChange={handleChange}
             />
-            <input type="submit" value="Search" className="btn btn-light" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-secondary button"
+            />
             <br />
             <div className="hint">
               Suggested words: apple, sunset, mauve, light...

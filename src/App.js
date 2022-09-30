@@ -5,7 +5,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1 className="App-header">Dictionary</h1>
-        <Dictionary defaultKeyword="Hello" />
+        <Dictionary defaultKeyword="Hi" />
         <a
           className="footer pb-5"
           href="https://github.com/carlypaige/dictionary-app"
