@@ -1,17 +1,56 @@
-.container {
-  padding: 30px auto;
-}
-.App a {
-  text-decoration: none;
+body {
+  background: #b2e8d0;
+  font-family: "Lexend", sans-serif;
 }
 .App-header {
   margin: 20px auto;
   text-align: center;
 }
+.Dictionary section {
+  background: #e7f8f0;
+  padding: 20px;
+  box-shadow: 0 8px 10px rgb(0 0 0 / 8%);
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.Dictionary input {
+  width: 25%;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.Phonetic {
+  height: 40px;
+}
+.Phonetic a {
+  font-size: 12px;
+  text-decoration: none;
+  border: 1px solid #917dc1;
+  border-radius: 25px;
+  padding: 5px 5px;
+}
+.Phonetic a:hover {
+  background: #917dc1;
+  color: white;
+  transition: all 120ms ease-in-out;
+}
+.Phonetic .text {
+  margin-left: 10px;
+  opacity: 60%;
+  font-weight: bold;
+}
+.Results {
+  padding: 30px auto;
+}
 .Results h2 {
   margin: 20px auto;
+  font-size: 36px;
   text-transform: capitalize;
   color: #917dc1;
+  font-weight: bold;
 }
 .Synonyms li {
   list-style: none;
