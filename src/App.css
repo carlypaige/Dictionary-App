@@ -11,4 +11,8 @@
 .Results h2 {
   margin: 20px auto;
   text-transform: capitalize;
+  color: #917dc1;
+}
+.Synonyms li {
+  list-style: none;
 }
