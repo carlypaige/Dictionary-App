@@ -9,6 +9,9 @@ body {
   font-size: 48px;
   font-weight: bold;
 }
+.App a {
+  font-size: 14px;
+}
 .Dictionary section {
   background: #effaf5;
   padding: 20px;
